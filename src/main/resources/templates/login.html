@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kullanıcı Girişi</title>
+</head>
+<body>
+<h1>Kullanıcı Girişi</h1>
+<form method="post" action="/saveUser">
+    <label for="username"> Kullanıcı adı:</label>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Şifre:</label>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit" value="Kaydol">
+    <input type="reset">
+
+
+</form>
+
+<form method="post" action="/login">
+    <label for="username"> Kullanıcı adı:</label>
+    <input type="text" id="username1" name="username"><br>
+    <label for="password">Şifre:</label>
+    <input type="password" id="password1" name="password"><br>
+    <input type="submit" value="Giriş yap">
+    <input type="reset">
+</form>
+
+
+</body>
+</html>
